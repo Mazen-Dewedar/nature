@@ -141,43 +141,44 @@ header{
                 right: 35px;
                 width: 80%;
             }
-        }
-        .declare{
-            width: 100%;
-            left: 0;
-            padding-left: 12rem;
-            position: absolute;
-            top: 580px;
-            left: -188px;
-            @media screen and (max-width:767px) {
-                padding:0%;
-                width: 100%;
-                top: 780px;
-                left: 0px;
-                padding: 0 2.5rem;
-            }
-            i{
-                font-size: 4rem;
-                color: #e5e5e5;
-                width: 100%;
-                display: flex;
-                align-items: first ;
-                justify-content: first;
-                position: relative;
-                p{
-                    color: black;
-                    font-size: 1.5rem;
-                    position: absolute;
-                    font-family: "Merriweather", serif;
-                    font-weight:400;
-                    line-height: 40px;
-                    padding-top: 1.5rem;
-                    text-align:start;
-
+            .declare{
+                width: 80%;
+                left: 0;
+                padding-left: 12rem;
+                position: absolute;
+                top: 100px;
+                left: -500px;
+                @media screen and (max-width:767px) {
+                    padding:0%;
+                    width: 100%;
+                    top:420px;
+                    left: 0px;
+                    padding: 0 2.5rem;
                 }
-            }
+                i{
+                    font-size: 4rem;
+                    color: #e5e5e5;
+                    width: 100%;
+                    display: flex;
+                    align-items: first ;
+                    justify-content: first;
+                    position: relative;
+                    p{
+                        color: black;
+                        font-size: 1.5rem;
+                        position: absolute;
+                        font-family: "Merriweather", serif;
+                        font-weight:400;
+                        line-height: 40px;
+                        padding-top: 1.5rem;
+                        text-align:start;
 
+                    }
+                }
+
+            }
         }
+
     }
 
     .text1{
@@ -201,12 +202,14 @@ header{
             width: 100%;
         }
         }
+
         hr{
             width: 12%;
             height: 2.5px ;
             border: none;
             background-color: #81c132;
         }
+
         p{
             width: 92%;
             line-height: 25px;
@@ -216,6 +219,4 @@ header{
             }
         }
     }
-
-
 }
