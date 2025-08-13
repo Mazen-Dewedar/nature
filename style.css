@@ -143,16 +143,16 @@ header{
             }
         }
         .declare{
-            width: 120%;
+            width: 100%;
             left: 0;
             padding-left: 12rem;
             position: absolute;
-            top: 500px;
+            top: 580px;
             left: -188px;
             @media screen and (max-width:767px) {
                 padding:0%;
                 width: 100%;
-                top: 750px;
+                top: 780px;
                 left: 0px;
                 padding: 0 2.5rem;
             }
