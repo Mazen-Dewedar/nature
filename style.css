@@ -142,6 +142,41 @@ header{
                 width: 80%;
             }
         }
+        .declare{
+            width: 30%;
+            padding-left: 12rem;
+            position: absolute;
+            top: 600px;
+            left: 0px;
+            @media screen and (max-width:767px) {
+                padding:0%;
+                width: 100%;
+                top: 750px;
+                left: 0px;
+                padding: 0 2.5rem;
+            }
+            i{
+                font-size: 4rem;
+                color: #e5e5e5;
+                width: 100%;
+                display: flex;
+                align-items: first ;
+                justify-content: first;
+                position: relative;
+                p{
+                    color: black;
+                    font-size: 1.5rem;
+                    position: absolute;
+                    font-family: "Merriweather", serif;
+                    font-weight:400;
+                    line-height: 40px;
+                    padding-top: 1.5rem;
+                    text-align:start;
+
+                }
+            }
+
+        }
     }
 
     .text1{
@@ -180,40 +215,6 @@ header{
             }
         }
     }
-    .declare{
-        width: 30%;
-        padding-left: 12rem;
-        position: absolute;
-        top: 600px;
-        left: 0px;
-        @media screen and (max-width:767px) {
-            padding:0%;
-            width: 100%;
-            top: 1440px;
-            left: 0px;
-            padding: 0 2.5rem;
-        }
-        i{
-            font-size: 4rem;
-            color: #e5e5e5;
-            width: 100%;
-            display: flex;
-            align-items: first ;
-            justify-content: first;
-            position: relative;
-            p{
-                color: black;
-                font-size: 1.5rem;
-                position: absolute;
-                font-family: "Merriweather", serif;
-                font-weight:400;
-                line-height: 40px;
-                padding-top: 1.5rem;
-                text-align:start;
 
-            }
-        }
-
-    }
 
 }
