@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    padding: 0 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    p{
+        color: white;
+        font-size: 2rem;
+    }
+    @media screen and (max-width:767px){
+        padding: 0 6vw;
+    }
+    @media screen and (min-width:768px) and (max-width:1440px){
+        padding: 0 10vw;
+    }
+
+}
+
+.A{
+    width: 100%;
+    background-image: url(./assets/fcb14a161aa9547b4673c26e4bc92cdd.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem 0;
+    color: white;
+    .content{
+        height: 60vh;
+        width: 45%;
+        background-color: #3d681633;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        @media  screen and (max-width:767px) {
+            width: 80%;
+            gap :2rem;
+        }
+         .up{
+            height: 14vh;
+            width: 14vh;
+            border-top: 3px solid white;
+            border-right: 3px solid white;
+            position: absolute;
+            top: 0px;
+            right: 8px;
+         }
+         .bottom{
+            height: 14vh;
+            width: 14vh;
+            border-bottom: 3px solid white;
+            border-left: 3px solid white;
+            position: absolute;
+            bottom: 0px;
+            left: 8px;
+         }
+        p{
+            font-size: clamp(1rem,3vw,1.1rem);
+        }
+         h1{
+            font-size: clamp(2rem,5.5vw,4.5rem);
+            text-align: center;
+            font-family: "Merriweather", serif;
+            font-weight: 400;
+            line-height: 4.5rem;
+            @media  screen and (max-width:767px) {
+                line-height: 2rem;
+            }
+        }
+         a{
+            height: 6vh;
+            background-color:#81c132 ;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "Open Sans", sans-serif;
+            font-size: clamp(12px,2vw,15px);
+            padding: 1rem 1.5rem;
+    
+         }
+        
+    }
+}
+
+.B{
+    width: 100%;
+    padding: 4rem 12rem;
+    position: relative;
+    display: flex;
+    @media screen and (max-width:767px) {
+        flex-direction: column;
+        padding: 0rem 2.5rem;
+    }
+
+    .first{
+        height:70vh;
+        width: 50%;
+        background-image: url(./assets/98697f8a5035ec93bad682b65a13f41c.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        box-shadow:0px 0px 10px 0px black;     
+        @media screen and (max-width:767px) {
+            order: 2;
+            width: 100%;
+        }
+        .second{
+            height: 50vh;
+            width:105% ;
+            background-image: url(./assets/2fa540df7187a7eeb5f596f9d0726e2d.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            bottom: -280px;
+            right: -340px;
+            box-shadow:0px 0px 10px 0px black;     
+            @media screen and (max-width:767px) {        
+                bottom: -260px;
+                right: 35px;
+                width: 80%;
+            }
+        }
+    }
+
+    .text1{
+        width: 50%;
+        padding-left: 4rem;
+        font-family: "Merriweather", serif;
+        display: flex;
+        flex-direction: column;
+        padding-top: 3rem;
+        gap: 1.4rem;
+        @media screen and (max-width:767px) {
+            width: 100%;
+            padding: 10rem 2.5rem;
+        }
+        h1{
+        font-weight: 350;
+        font-size:clamp(1.8rem,5vw,2.5rem);
+        line-height: 2.5rem;
+        width: 90%;
+        @media screen and (max-width:767px) {
+            width: 100%;
+        }
+        }
+        hr{
+            width: 12%;
+            height: 2.5px ;
+            border: none;
+            background-color: #81c132;
+        }
+        p{
+            width: 92%;
+            line-height: 25px;
+            font-weight: 100;
+            @media screen and (max-width:767px) {
+                width: 100%;
+            }
+        }
+    }
+    .declare{
+        width: 30%;
+        padding-left: 12rem;
+        position: absolute;
+        top: 600px;
+        left: 0px;
+        @media screen and (max-width:767px) {
+            padding:0%;
+            width: 100%;
+            top: 240vh;
+            left: 0px;
+            padding: 0 2.5rem;
+        }
+        i{
+            font-size: 4rem;
+            color: #e5e5e5;
+            width: 100%;
+            display: flex;
+            align-items: first ;
+            justify-content: first;
+            position: relative;
+            p{
+                color: black;
+                font-size: 1.5rem;
+                position: absolute;
+                font-family: "Merriweather", serif;
+                font-weight:400;
+                line-height: 40px;
+                padding-top: 1.5rem;
+                text-align:start;
+
+            }
+        }
+
+    }
+
+}
