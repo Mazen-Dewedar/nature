@@ -189,7 +189,7 @@ header{
         @media screen and (max-width:767px) {
             padding:0%;
             width: 100%;
-            top: 240vh;
+            top: 1440px;
             left: 0px;
             padding: 0 2.5rem;
         }
