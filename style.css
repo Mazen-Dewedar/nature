@@ -111,9 +111,15 @@ header{
         flex-direction: column;
         padding: 0rem 2.5rem;
     }
+    @media screen and (min-width:768px) and (max-width:992px){
+        flex-direction: column;
+        padding: 0rem 2.5rem;
+        gap: 2rem;
+        padding:4rem 4rem ;
+    }
 
     .first{
-        height:70vh;
+        height:90vh;
         width: 50%;
         background-image: url(./assets/98697f8a5035ec93bad682b65a13f41c.jpeg);
         background-position: center;
@@ -125,35 +131,52 @@ header{
             order: 2;
             width: 100%;
         }
+        @media screen and (min-width:768px) and (max-width:992px) {
+            order: 2;
+            width: 60%;
+            height: 90vh;
+        }
         .second{
-            height: 50vh;
+            height: 45vh;
             width:105% ;
             background-image: url(./assets/2fa540df7187a7eeb5f596f9d0726e2d.jpeg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             position: absolute;
-            bottom: -280px;
-            right: -340px;
+            bottom: -252px;
+            right: -325px;
             box-shadow:0px 0px 10px 0px black;     
             @media screen and (max-width:767px) {        
                 bottom: -260px;
                 right: 35px;
                 width: 80%;
             }
+             @media screen and (min-width:768px) and (max-width:992px){
+                width: 100%;
+                bottom: -249px;
+                right: -316px;
+                width: 60vw;
+             }
             .declare{
-                width: 80%;
+                width: 49vw;
+                max-width:500px;
                 left: 0;
                 padding-left: 12rem;
                 position: absolute;
-                top: 100px;
+                top: 134px;
                 left: -500px;
                 @media screen and (max-width:767px) {
                     padding:0%;
-                    width: 100%;
+                    width: 120%;
                     top:420px;
                     left: 0px;
-                    padding: 0 2.5rem;
+                    padding: 0 0rem;
+                }
+                @media screen and (min-width:768px) and (max-width:992px){
+                    top: 80px;
+                    left: -438px;
+            
                 }
                 i{
                     font-size: 4rem;
@@ -165,7 +188,8 @@ header{
                     position: relative;
                     p{
                         color: black;
-                        font-size: 1.5rem;
+                        font-size:clamp(1.1rem,2vw,1.5rem) ;
+
                         position: absolute;
                         font-family: "Merriweather", serif;
                         font-weight:400;
@@ -193,9 +217,14 @@ header{
             width: 100%;
             padding: 10rem 2.5rem;
         }
+        @media screen and (min-width:768px) and (max-width:992px){
+            width: 100%;
+        
+        }
+
         h1{
         font-weight: 350;
-        font-size:clamp(1.8rem,5vw,2.5rem);
+        font-size:clamp(1.8rem,4vw,2.5rem);
         line-height: 2.5rem;
         width: 90%;
         @media screen and (max-width:767px) {
@@ -214,9 +243,53 @@ header{
             width: 92%;
             line-height: 25px;
             font-weight: 100;
+            font-size: clamp(1.rem ,3vw,1.2rem);
             @media screen and (max-width:767px) {
                 width: 100%;
             }
+        }
+    }
+}
+.C{
+    width: 100%;
+    padding: 0rem 12rem;
+    position: relative;
+    .box1{
+        height: 36vh;
+        width: 25vw;
+        background-color: #f2f2f2;
+        position: absolute;
+        top: -80px;
+        right: 12rem;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    @media screen and (max-width:767px) {
+        width: 80%;
+        top: 567px;
+        right: 10%;
+        height: 40vh;
+    }
+     @media screen and (min-width:768px) and (max-width:992px) {
+            width: 55%;
+            top: 161px;
+            right: 36%;
+            height: 39vh;
+    }
+        h1{
+            font-family: "Merriweather", serif;
+
+        }
+        hr{
+            width: 12%;
+            height: 2.5px ;
+            border: none;
+            background-color: #81c132;
+        }
+        p{
+            font-family: "Open Sans", sans-serif;
+
         }
     }
 }
