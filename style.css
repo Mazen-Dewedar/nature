@@ -219,8 +219,8 @@ header{
             }
         }
         .beauty{
-            height: 253px;
             width: 385px;
+            max-width: 90%;
             position: absolute;
             background-color:#f2f2f2;     
             top: 0px;
