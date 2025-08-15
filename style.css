@@ -362,8 +362,8 @@ header{
                 object-fit: cover;
                 box-shadow: rgba(26, 26, 26, 0.4) 0px 0px 40px 0px;
                 @media screen and (max-width:767px) {
-                    top: 281px;
-                    right: 206px;
+                    top: 307px;
+                    right: 149px;   
                     width: 225px;
 
                 }
