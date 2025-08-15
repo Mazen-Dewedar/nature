@@ -386,12 +386,20 @@ header{
     display: flex;
     justify-content: center;
     margin-top: 14rem;
+    width: 100%;
     .container{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        align-items: center;
+        justify-content:center ;
+        width: 100%;
         padding-bottom: 4rem;
         gap: calc(( 100% - 366px - 366px - 366px ) / 2);
+        @media screen and (min-width:738px) and (max-width : 1095px) {
+            gap:5rem
+
+        }
         @media screen and (max-width:767px) {
             justify-content: center;
         }
