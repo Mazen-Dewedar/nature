@@ -109,6 +109,10 @@ header{
                 padding: 1rem 1.5rem;
         
             }
+            a:hover{
+                background-color:  #74AE2D;
+                cursor: pointer;
+            }
             
         }
     }
@@ -314,6 +318,7 @@ header{
                 order: 1;
                 display: flex;
                 justify-content: center;
+                /* align-items: center; */
                 padding-top: 20rem;
                 padding-bottom: 20rem;
             }
@@ -370,4 +375,80 @@ header{
             }
         }
     }
+}
+
+.boxes{
+    background-image: url(./assets/0deb95780006ded47c0b24ebfd6a09a0.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-top: 14rem;
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-bottom: 4rem;
+        gap: calc(( 100% - 366px - 366px - 366px ) / 2);
+        @media screen and (max-width:767px) {
+            justify-content: center;
+        }
+        .box{
+            width: 366px;
+            max-width: 90%;
+            background-color: #ffffff9c;
+            padding: 4rem 2rem ;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            margin-top:1rem ;
+            margin-bottom: 1rem;
+            .first{
+                display: flex;
+                flex-direction: row;
+                gap: 2rem;
+                align-items: center;
+                justify-content: center;
+                
+                h1{
+                    font-family: Merriweather, serif;
+                    font-size: 96px;
+                    line-height: 96px;
+                    color:  #346473;
+                    font-weight: 400;
+                }
+                h2{
+                    font-family: Merriweather, serif;
+                    font-size: 24px;
+                    line-height: 28.8px;
+                    color:  #111111;
+                    font-weight: 400;
+                }
+            }
+            p{
+                font-family: "Open Sans", sans-serif;
+                font-size: 16px;
+                line-height: 28.8px;
+            }
+            a{
+                font-family: "Open Sans", sans-serif;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 25.6px;
+                border-bottom: 3px solid #346473;
+                width: fit-content;
+                color: black;
+            }
+            a:hover{
+                color:  #346473;
+                border-bottom: 2px solid black;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+a{
+    text-decoration: none;
 }
